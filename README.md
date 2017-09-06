@@ -2,7 +2,7 @@
 
 ## Show Hidden Files in Finder
 * This step isn't required but makes navigating installation directories easier
-* From the Terminal: `defaults write com.apple.finder AppleShowAllFiles YES`
+* From the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) run command: `defaults write com.apple.finder AppleShowAllFiles YES`
 * Hold `option/alt` key and right click to relaunch Finder
 
 ## Allow [Gatekeeper](https://support.apple.com/en-us/HT202491) to run unsigned packages
