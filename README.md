@@ -7,7 +7,7 @@
 
 ## Allow [Gatekeeper](https://support.apple.com/en-us/HT202491) to temporarily run unsigned packages
 * As specified on [WineHQ](https://wiki.winehq.org/MacOS)
-**If Required**
+### If Required
 * From Terminal run command: `sudo spctl --master-disable`
 * System Preferences > Security & Privacy > General Tab > Select Anywhere
 ![Gatekeeper](https://upload.wikimedia.org/wikipedia/en/e/eb/Gatekeeper.png)
