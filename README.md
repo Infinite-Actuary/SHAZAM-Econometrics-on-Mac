@@ -24,6 +24,11 @@
 * This should open a new Terminal where wine is on the [System PATH](https://en.wikipedia.org/wiki/PATH_(variable))
 * `which wine` > **/Applications/Wine Stable.app/Contents/Resources/wine/bin/wine**
 * WINE_PREFIX = /Users/{user_name}/.wine
+* You may need to manually add wine to the **$PATH** in the ~/.bash_profile via:
+```Bash
+export WINE_HOME="/Applications/Wine Stable.app/Contents/Resources/wine"
+export PATH=$PATH:$WINE_HOME/bin
+```
 
 ## Install SHAZAM 32 bit
 * Run the [Windows Installer](https://en.wikipedia.org/wiki/Windows_Installer) (.msi)
