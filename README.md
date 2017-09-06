@@ -38,11 +38,13 @@ cd /Users/{user_name}/.wine/drive_c/SHAZAM
 wine SHAZAMW.exe
 ```
 * Error: *fixme:ntdll:NtLockFile I/O completion on lock not implemented yet*
-* SHAZAM 64 bit suffered from page faults on read access while trying to run *SHAZAM Example*
+* SHAZAM 64 bit suffered from page faults on read access while trying to run ~~SHAZAM Example~~
 * create [alias](https://en.wikipedia.org/wiki/Alias_(Mac_OS)) in ~/.bash_profile
 ```Bash
 alias shazam='wine /Users/{user_name}/.wine/drive_c/SHAZAM/SHAZAMW.exe
 ```
 * See [alias example](https://coolestguidesontheplanet.com/make-an-alias-in-bash-shell-in-os-x-terminal/) for more detail
 * You should now be able to launch SHAZAM by simply opening a Terminal and running `shazam`
+* You can also navigate to the SHAZAM directory **/Users/{user_name}/.wine/drive_c/SHAZAM** in Finder > Open With > Enable: All Applications > Wine Stable
+* Drag this folder to the [favorites sidebar](https://support.apple.com/kb/PH19079?locale=en_US) for easier access
 
