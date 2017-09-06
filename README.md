@@ -1,6 +1,6 @@
 # Installing [SHAZAM 11.1.4](http://www.econometrics.com/download/) (32 bit) on macOS Sierra
 
-## Show Hidden Files in Finder
+## Show Hidden Files in [Finder](https://en.wikipedia.org/wiki/Finder_(software))
 * This step isn't required but makes navigating installation directories easier
 * From the /Applications/Utilities/[Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) run command: `defaults write com.apple.finder AppleShowAllFiles YES`
 * Hold `option/alt` key and right click to relaunch Finder
