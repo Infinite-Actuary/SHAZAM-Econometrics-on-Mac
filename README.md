@@ -7,9 +7,11 @@
 
 ## Allow [Gatekeeper](https://support.apple.com/en-us/HT202491) to run unsigned packages
 * As specified on [WineHQ](https://wiki.winehq.org/MacOS)
-* From Terminal `sudo spctl --master-disable`
+* From Terminal run command: `sudo spctl --master-disable`
 * System Preferences > Security & Privacy > General Tab > Select Anywhere
 ![Gatekeeper](https://upload.wikimedia.org/wikipedia/en/e/eb/Gatekeeper.png)
+* After completing installation steps revert Gatekeeper back to previous configuration
+* From Terminal run command: `sudo spctl --master-disable`
 
 ## Install [XQuartz](https://www.xquartz.org/) 2.7.11
 * Requires logout after installing (~190 MB total)
@@ -17,5 +19,22 @@
 
 ## Install latest version of [Wine Stable 2.0.2](https://dl.winehq.org/wine-builds/macosx/download.html) .pkg
 * Select 64 bit support (~520 MB total)
+* Applications > Wine Stable > Launch
+* This should open a new Terminal where wine is on the [System PATH](https://en.wikipedia.org/wiki/PATH_(variable))
+* `which wine` > **/Applications/Wine Stable.app/Contents/Resources/wine/bin/wine**
+* WINE_PREFIX = /Users/{user_name}/.wine
+
+## Install SHAZAM 32 bit
+* Run the [Windows Installer](https://en.wikipedia.org/wiki/Windows_Installer) (.msi)
+```Bash
+cd ~/Downloads
+wine msiexec /i SHAZAM_11_1_4_32.msi
+```
+* Allow the installation of [Mono](https://wiki.winehq.org/Mono) & [Gecko](https://wiki.winehq.org/Gecko) packages
+* Follow default directories
+```Bash
+cd /Users/{user_name}/.wine/drive_c/SHAZAM
+wine SHAZAMW.exe
+```
 
 
