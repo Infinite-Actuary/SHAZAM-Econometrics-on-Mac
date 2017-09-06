@@ -7,12 +7,11 @@
 
 ## Allow [Gatekeeper](https://support.apple.com/en-us/HT202491) to temporarily run unsigned packages
 * As specified on [WineHQ](https://wiki.winehq.org/MacOS)
+**If Required**
 * From Terminal run command: `sudo spctl --master-disable`
 * System Preferences > Security & Privacy > General Tab > Select Anywhere
 ![Gatekeeper](https://upload.wikimedia.org/wikipedia/en/e/eb/Gatekeeper.png)
-* See [tekrevue](https://www.tekrevue.com/tip/gatekeeper-macos-sierra/) for example
-* After completing installation steps revert Gatekeeper back to previous configuration
-* From Terminal run command: `sudo spctl --master-disable`
+* After completing installation steps revert Gatekeeper back to previous configuration and run command: `sudo spctl --master-disable`
 
 ## Install [XQuartz](https://www.xquartz.org/) 2.7.11
 * Requires logout after installing (~190 MB total)
