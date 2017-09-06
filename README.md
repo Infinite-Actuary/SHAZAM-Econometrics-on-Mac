@@ -5,7 +5,7 @@
 * From the /Applications/Utilities/[Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) run command: `defaults write com.apple.finder AppleShowAllFiles YES`
 * Hold `option/alt` key and right click to relaunch Finder
 
-## Allow [Gatekeeper](https://support.apple.com/en-us/HT202491) to run unsigned packages
+## Allow [Gatekeeper](https://support.apple.com/en-us/HT202491) to temporarily run unsigned packages
 * As specified on [WineHQ](https://wiki.winehq.org/MacOS)
 * From Terminal run command: `sudo spctl --master-disable`
 * System Preferences > Security & Privacy > General Tab > Select Anywhere
